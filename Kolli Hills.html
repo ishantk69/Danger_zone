@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOLLI HILLS</title>
+    <link rel="stylesheet" href="kolli.css">
+
+   
+</head>
+<body>
+    <div class="container">
+        
+        <nav>
+            <a href="Home.html" class="n1">|HOME|</a>
+            <a href="sundarbans.html" class="n1">SUNDARBANS</a>
+            <a href="jim_corbettparkl.html" class="n1">JIM CORBERTT NATIONAL PARK</a>
+            <a href="khasihill.html" class="n1">KHASIHILL</a>
+            <a href="khanatiger.html" class="n1">KHANA TIGER</a>
+            <a href="phutgal.html" class="n1">PHUGTAL MONASTERY</a>
+            <!-- <a href="" class="n1">KOLLI HILLS</a> -->
+            <a href="Thar Desert.html" class="n1">THE DESERT</a>
+            <a href="bastar.html" class="n1">BASTAR DISTRICT</a>
+            <a href="Bhangarh.html" class="n1">BHANGARH</a>
+        </nav>
+
+        <h1>KOLLI HILLS</h1>
+
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="./IMG/kolli/kolli4.jpg" style="width:100%"  height="750px">
+              
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="./IMG/kolli/kolli2.jpg" width="100%" height="750px" >
+              
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="./IMG/kolli/kolli1.jpg" style="width:100%" height="750px">
+              
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="./IMG/kolli/kolli3.jpg" width="100%" height="750px">
+                
+            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+            <h2>About -</h2>
+            <p>Kolli Hills or Kolli Malai is a small mountain range located in Central Tamil Nadu and spread over the Namakkal district and Tiruchirapalli district of India. The mountains rise to 1300 m in height and cover an area of approximately 280 km2. It is situated at a distance of 43 km from Namakkal and 120 km from Trichy. They are part of the Eastern Ghats, which is a mountain range that runs mostly parallel to the east coast of Southern India. The mountain is a site of pilgrimage, because of the Arapaleeswarar temple, but the area is also popular with Motor cycle enthusiasts because of the high altitude motor-able terrain with 72 hairpin bends</p>
+
+            <h2>Origin of the name -</h2>
+            <p>The Mountain is named Kolli Malai after the name of Goddess Ettukkai Amman (also known as Kollipavai) guarding the hills with her divine protection.</p>
+
+            <h2>Historical references -</h2>
+            <p>The Kolli Hills are featured in several works of classical Tamil literature such as Silappathigaram, Manimekalai, Purananuru and Akananuru. Mahavidwan R. Raghava Iyengar in the research monograph Araichi Katturaigal has given exhaustive references to Kollipavai from early Sangam literature, concluding that the image is in Kolli Hills. The region was ruled by Valvil Ori around 200 CE, who is praised as one of the seven great philanthropists of ancient Tamil Nadu. His valor and marksmanship are sung by several poets, and his exploits are a popular part of folklore. Ori is said to have killed a lion, bear, deer and a boar with a single arrow. The hills are said to be guarded by Kollipavai also called as "Ettukkai Amman", the local deity. According to legend, the sages chose Kolli hills when they were looking for a peaceful place to do their penance. However, the demons invaded the hills to disrupt the penance when the sages began their rituals. The sages prayed to Kollipavai, who according to the myth, chased away the demons with her enchanting smile. The Kollipavai hills is still worshipped by the people here and her smile is revered. The mountains have several mythological legends associated with them, and often come across as an eerie place in contemporary tales due to the unexplored and less traveled terrain. This mountain is full of herbs which retains health and vigour.</p>
+
+            <h2>Infrastructure -</h2>
+            <p>The Kolli hills became taluk and forms a part of Namakkal district. Semmedu village is the headquarters for the Kolli Hills block and Semmedu is connected by road to Namakkal and Salem. Nowadays the Bus service is provided up to Arappaleeswarar Temple. BSNL (earlier DOT) established the first Telecommunication networks (LDPCO) in 1977 and afterwards the Telecom facilities are continuously expanded depending upon the requirements at Kolli hills.</p>
+
+            <h2>Farming -</h2>
+            <p>Apart from its historical significance, the mountains are covered with evergreen forests, but increasing areas of forests have been cleared for farming. Farm products of the mountain ranges include black pepper, jackfruit, banana, pineapple, Oranges, Tapioca, and other spices. Rice and other minor millets (Foxtail, Finger Millet and Little Millet) form the staple food of the tribal people who inhabit these mountains. The jackfruit grown on these mountains is well known for its taste and fragrance and is often soaked in wild honey that is also harvested from these mountains. </p>
+
+
+
+
+      
+
+
+    </div>
+    
+</body>
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+
+
+</script>
+</html>
