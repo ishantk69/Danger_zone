@@ -5,6 +5,7 @@
 }
 body{
     background-image: url(./IMG/wall.jpg);
+    background-size: cover;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -13,7 +14,7 @@ h1{
     text-align: center;
     height: max-content;
     font-size:100px;
-    color:rgb(67, 102, 67); 
+    color:whitesmoke; 
     margin: auto;  
     
 }
@@ -38,7 +39,7 @@ h1{
     display: grid;
     grid-template-columns:400px;
     min-height: 700px;
-    background-color: rgb(204, 216, 216);
+    background-color: whitesmoke;
     box-shadow:5px 10px 30px 1px #385225;
     cursor: pointer;
 }
@@ -108,12 +109,17 @@ h2{
 /* ******************************* */
 #name1,#name3,#name4,#name6,#name7,#name9{
     font-size: 50px;
-    color:slategray;   
+    color:rgb(0, 66, 0);   
+    text-align: center;
 }
-
+.img{
+    text-align: center;
+    padding: 5px;
+}
 #name2,#name5,#name8{
     font-size: 50px;
-    color:slategray;
+    color:rgb(0, 66, 0);
+    text-align: center;
 }
 
 /* h2 font size */
@@ -138,9 +144,9 @@ p{
 }
 
 .hover{
-    color: cornflowerblue;
+    color: black;
     font-size: 18px;
-    text-decoration: underline;
+    text-decoration:none;
 }
 .hover:hover{
     color:tomato;
