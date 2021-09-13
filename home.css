@@ -38,10 +38,11 @@ h1{
 .img{
     display: grid;
     grid-template-columns:400px;
-    min-height: 700px;
+    grid-template-rows:250px 300px 250px ;
     background-color: whitesmoke;
-    box-shadow:5px 10px 30px 1px #385225;
     cursor: pointer;
+    text-align: center;
+    padding: 5px;
 }
 #i1:hover,#i2:hover,#i3:hover{
     animation: shake 0.5s;
@@ -80,30 +81,8 @@ h2{
     margin: 0 0 auto;
     margin-left: 5px;
 }
-/* font font margin */
-.font{
-    margin-bottom: 80px;
-    /* padding-top: 0px; */
-    
-}
-.font1{
-    margin-top: 30px;
-    
-}
-.font2{
-   margin-bottom: 100px;
-
-}
-.font3{
-    
-    margin-top: 30px;
-}
-.font7{
-    margin-bottom: 200px;
-}
-#name9{
-    margin-top:30px;
-
+#name7{
+    padding-top: 10px;
 }
 
 /* ******************************* */
@@ -112,27 +91,14 @@ h2{
     color:rgb(0, 66, 0);   
     text-align: center;
 }
-.img{
-    text-align: center;
-    padding: 5px;
-}
+
 #name2,#name5,#name8{
     font-size: 50px;
     color:rgb(0, 66, 0);
     text-align: center;
 }
 
-/* h2 font size */
-#name3{
-    padding-top: 25px;
-}
-#name4{
-    padding-top:30px;
-}
 
-#name8{
-    padding-bottom:8px ;
-}
 /* *********************************** */
 p{
     color:darkslategray;
