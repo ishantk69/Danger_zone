@@ -15,7 +15,7 @@ nav{
     overflow: hidden;
     background-color: lightslategray;
     padding: 15px;
-    position:sticky;
+    position:relative;
     top: 0px;
 }
 h1{
